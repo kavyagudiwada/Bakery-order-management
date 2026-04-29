@@ -1,7 +1,6 @@
 {
-  "rootDirectory": "Bakery order management",
   "routes": [
-    { "src": "/", "dest": "/cover.html" }
+    { "src": "/(.*)", "dest": "/Bakery order management/$1" }
   ]
 }
 
